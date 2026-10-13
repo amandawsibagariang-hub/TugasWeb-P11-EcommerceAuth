@@ -19,6 +19,7 @@
         <label><input type="checkbox" name="remember"> Ingat saya</label>
         <button class="w-full bg-blue-600 text-white py-2 rounded">Login</button>
     </form>
+    @csrf
     <p class="mt-4">Belum punya akun? <a class="text-blue-600" href="{{ route('register') }}">Register</a></p>
 </div>
 </body>
